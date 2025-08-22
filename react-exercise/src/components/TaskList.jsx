@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import TaskItem from './TaskItem';
 import AddTask from './AddTask';
-import taskApi from '../services/todoApi';
+import taskApi from '../services/taskApi';
 
 const TaskList = () => {
   // TODO: Add state for tasks array
